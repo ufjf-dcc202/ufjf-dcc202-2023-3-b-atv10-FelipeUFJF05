@@ -1,3 +1,5 @@
+console.log('módulo joaoEMaria');
+
 let maria = 2;
 let joao = 1;
 
@@ -23,11 +25,25 @@ function getJoao()
 
 function setMaria(mariaNovoValor)
 {
-    maria = mariaNovoValor;
+    if(mariaNovoValor > 0)
+    {
+        maria = mariaNovoValor;
+    }
+    else
+    {
+        maria = 0;
+    }
 }
 function setJoao(joaoNovoValor)
 {
-    joao = joaoNovoValor;
+    if(joaoNovoValor > 0)
+    {
+        joao = joaoNovoValor;
+    }
+    else
+    {
+        joao = 0;
+    }
 }
 
 export { getMaria, getJoao, deJoaoParaMaria, deMariaParaJoao, setJoao, setMaria, maria, joao};
