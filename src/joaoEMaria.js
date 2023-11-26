@@ -46,4 +46,4 @@ function setJoao(joaoNovoValor)
     }
 }
 
-export { getMaria, getJoao, deJoaoParaMaria, deMariaParaJoao, setJoao, setMaria, maria, joao};
+export { getMaria, getJoao, deJoaoParaMaria, deMariaParaJoao, setJoao, setMaria };
